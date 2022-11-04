@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="Enter details"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:hint="Enter name"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/name"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:hint="Enter Contact details"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/contact"/>
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:hint="Date of Birth"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:text="INSERT"
+        android:gravity="center"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:text="UPDATE"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:text="DELETE"
+        android:gravity="center"
+        android:layout_marginTop="470dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:text="VIEW"
+        android:gravity="center"
+        android:layout_marginTop="540dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+
+</RelativeLayout>
