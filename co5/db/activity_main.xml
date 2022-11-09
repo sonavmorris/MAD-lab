@@ -53,7 +53,7 @@
         android:textColorHint="@color/black" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/insert"
         android:layout_width="300dp"
         android:layout_height="56dp"
         android:text="INSERT"
@@ -62,7 +62,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"/>
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/update"
         android:layout_width="300dp"
         android:layout_height="56dp"
         android:text="UPDATE"
@@ -71,7 +71,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"/>
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/delete"
         android:layout_width="300dp"
         android:layout_height="56dp"
         android:text="DELETE"
@@ -80,7 +80,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"/>
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/view"
         android:layout_width="300dp"
         android:layout_height="56dp"
         android:text="VIEW"
